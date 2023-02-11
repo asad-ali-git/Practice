@@ -1,0 +1,148 @@
+body {
+  background-image: linear-gradient(to right, aqua, purple);
+  display: flex;
+  justify-content: center;
+  font-family: system-ui;
+}
+
+main {
+  width: 400px;
+  height: 600px;
+  background-color: #fff;
+  border-radius: 8px;
+  margin-top: 50px;
+}
+
+.card-header {
+  display: flex;
+  justify-content: center;
+  height: 25%;
+  align-items: center;
+}
+
+.card-body {
+  margin: 0px 40px;
+}
+.username {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.icon {
+  position: absolute;
+  top: 51%;
+  left: 4%;
+}
+
+.password {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+  position: relative;
+}
+
+input {
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  color: gray;
+  padding: 20px 0px 20px 40px;
+  border-color: lightgray;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+::placeholder {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.forgot-password {
+  text-align: right;
+  font-size: 12px;
+  color: #686868;
+  margin-top: 15px;
+}
+
+.login-btn {
+  margin-top: 30px;
+}
+
+.login-btn button {
+  width: 100%;
+  padding: 12px 10px;
+  border: none;
+  border-radius: 50px;
+  background-image: linear-gradient(45deg, aqua, purple);
+  color: #fff;
+  font-weight: bold;
+}
+
+.or-sign-up-using {
+  font-size: 12px;
+  color: #686868;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.or-sign-up-using2 {
+  margin-top: 30px;
+  font-size: 12px;
+  color: #686868;
+  text-align: center;
+}
+
+.sign-up {
+  font-size: 12px;
+  color: #686868;
+  text-align: center;
+  font-weight: bold;
+}
+
+.social-icons-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.social-icons {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 20px;
+}
+
+.facebook-icon {
+  background-color: #405b95;
+  color: white;
+  width: 35px;
+  border-radius: 50%;
+  height: 35px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.twitter-icon {
+  background-color: #49a1e9;
+  color: white;
+  width: 35px;
+  border-radius: 50%;
+  height: 35px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.google-icon {
+  background-color: #e04f45;
+  color: white;
+  width: 35px;
+  border-radius: 50%;
+  height: 35px;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
